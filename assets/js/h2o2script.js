@@ -67,7 +67,7 @@ $(document).ready(function(){
 		});
 
 		var info = new google.maps.InfoWindow({
-			content: "<div class='row'><div class='col l4'><img src='/assets/images/H2O2_logo-04.png' style='height: 57px; width: 100px'></div><div class='col l8'><h6>1900 E Aloha St<br>Seattle, WA 98112</h6></div></div>"
+			content: "<div class='row'><div class='col l4'><img src='assets/images/H2O2_logo-04.png' style='height: 57px; width: 100px'></div><div class='col l8'><h6>1900 E Aloha St<br>Seattle, WA 98112</h6></div></div>"
 		});
 
 		marker.addListener('click', function() {

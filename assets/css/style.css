@@ -11,15 +11,15 @@ body{
 }
 @font-face {
     font-family: rust;
-    src: url("/assets/font/rust.ttf");
+    src: url("../font/rust.ttf");
 }
 @font-face {
 	font-family: rust_head;
-	src: url("/assets/font/rust_head.ttf");
+	src: url("../font/rust_head.ttf");
 }
 @font-face {
 	font-family: niconne;
-	src: url("/assets/font/niconne.ttf");
+	src: url("../font/niconne.ttf");
 }
 nav, nav ul a{
 	font-family: rust_head;
@@ -136,7 +136,7 @@ div.service_div ul{
   font-size: 1.15em;
 }
 div.service_div.haircuts{
-  background: url('/assets/images/scissors2-inverted.png');
+  background: url('../images/scissors2-inverted.png');
   background-size: 50% auto;
   background-repeat: no-repeat;
   background-position: 10% 50%;
@@ -144,7 +144,7 @@ div.service_div.haircuts{
   color: white;
 }
 div.service_div.products{
-  background: url('/assets/images/aveda-vector-logo.png');
+  background: url('../images/aveda-vector-logo.png');
   background-size: 50% auto;
   background-repeat: no-repeat;
   background-position: 10% 50%;
@@ -152,7 +152,7 @@ div.service_div.products{
   color: black;
 }
 div.service_div.coloring{
-  background: url('/assets/images/brush-inverted.png');
+  background: url('../images/brush-inverted.png');
   background-size: 50% auto;
   background-repeat: no-repeat;
   background-position: 10% 50%;
@@ -161,7 +161,7 @@ div.service_div.coloring{
   color: white;
 }
 div.service_div.styling{
-  background: url('/assets/images/hair_silhouette2.png');
+  background: url('../images/hair_silhouette2.png');
   background-size: 50% auto;
   background-repeat: no-repeat;
   background-position: 10% 50%;
@@ -169,14 +169,14 @@ div.service_div.styling{
   color: black;
 }
 div.service_div.waxing{
-  background: url('/assets/images/eyebrow.png');
+  background: url('../images/eyebrow.png');
   background-size: 50% auto;
   background-repeat: no-repeat;
   background-position: 10% 50%;
   color: black;
 }
 div.service_div.perms{
-  background: url('/assets/images/curl.png');
+  background: url('../images/curl.png');
   background-size: 50% auto;
   background-repeat: no-repeat;
   background-position: 10% 50%;
