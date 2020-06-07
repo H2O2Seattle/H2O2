@@ -13,7 +13,7 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 //accounting for fixed navbar covering the initial content when jumping from hash to hash
 function shiftWindow(){
 	if (window.location.hash !== '#contact'){
-		scrollBy(0, -80);
+		scrollBy(0, -18);
 	}else{
 		scrollBy(0, 0);
 	}
@@ -47,7 +47,7 @@ $(document).ready(function(){
 	//google Maps API
 	var map;
 	var marker;
-	var salon = {lat: 47.6269551, lng: -122.3092533};
+	var salon = {lat: 47.668554, lng: -122.296275};
 
 	function initialize(){
 		var mapOptions = {
@@ -62,12 +62,12 @@ $(document).ready(function(){
 		marker = new google.maps.Marker({
 			position: salon,
 			title: 'H2O2',
-			info: '1900 E Aloha, Seattle, WA, 98112',
+			info: '2821 NE 55th St, Seattle, WA, 98105',
 			map: map
 		});
 
 		var info = new google.maps.InfoWindow({
-			content: "<div class='row'><div class='col l4'><img src='assets/images/H2O2_logo-04.png' style='height: 57px; width: 100px'></div><div class='col l8'><h6>1900 E Aloha St<br>Seattle, WA 98112</h6></div></div>"
+			content: "<div class='row'><div class='col l4'><img src='assets/images/H2O2_logo-04.png' style='height: 57px; width: 100px'></div><div class='col l8'><h6>2821 NE 55th St<br>Seattle, WA 98105</h6></div></div>"
 		});
 
 		marker.addListener('click', function() {
